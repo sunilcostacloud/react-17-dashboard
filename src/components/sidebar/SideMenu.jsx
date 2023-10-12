@@ -5,14 +5,19 @@ import { useLocation } from 'react-router-dom';
 
 const menuItems = [
   {
-    name: "Admin",
+    name: "Home",
     exact: true,
     to: "/",
   },
   {
-    name: "Creator",
+    name: "Admin",
     exact: true,
-    to: `/creator`,
+    to: "/admin",
+  },
+  {
+    name: "Manager",
+    exact: true,
+    to: `/manager`,
   },
   {
     name: "User",
